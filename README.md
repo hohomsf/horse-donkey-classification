@@ -38,7 +38,7 @@ The sources of the dataset are as follows:
   * Captured from videos to avoid using the same images from Google Images
 
 ## Workflow
-<br>![Workflow](md_img/flow.png)<br>
+<br>![Workflow](my_images/flow.png)<br>
 
 ## Codes
 ```image_scrape.py```<br>
@@ -55,15 +55,15 @@ Train, evaluate and save the Keras CNN image classification model. The model can
 
 ## Results
 The testing accuracy (predicting unseen images) is 0.855.
-<br>![Report](md_img/report.png)<br>
+<br>![Report](my_images/report.png)<br>
 
 Here are the predictions done on new images.
-<br>![Predictions](md_img/predictions.png)<br>
+<br>![Predictions](my_images/predictions.png)<br>
 We can see only the last picture, which should be a donkey, is wrongly classified.
 
 ## Reflection and Next Steps
 While the testing accuracy is quite satisfying, I noticed that the learning curve in terms of validation accuracy and validation loss during the training process was not that stable or smooth. That means the model performed extremely well on training set but not that well on pictures they never saw.  
-<br>![History](md_img/history.png)<br>
+<br>![History](my_images/history.png)<br>
 This made me believe there should be still some room for improvement in the modelling. And I would try the following:
 * Add more dataset
 * Try more combinations of parameters
