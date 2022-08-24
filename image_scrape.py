@@ -120,7 +120,7 @@ def search_and_download(search_term, driver_path, target_path, number_images=100
         search_term (str): Search term
         driver_path (str): Path of chromedriver
         target_path (str): Path where the image folder will be created
-        number_images(int): Number of images to be scraped, default 10
+        number_images(int): Number of images to be scraped, default 100
 
     Returns:
         None

@@ -1,5 +1,6 @@
 /.idea
 /venv
 /scraped_images
+/md_img
 .DS_Store
 .env
