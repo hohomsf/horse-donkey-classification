@@ -1,6 +1,6 @@
 # Horse Donkey Classification
 
-This is a horse-donkey image classifier using Keras CNN. The test accuracy is currently 0.855.
+This is a horse-donkey image classifier using Keras CNN. The test accuracy is currently 0.865.
 
 
 ## Tech Stack Highlights
@@ -54,12 +54,12 @@ Rename all the images in a folder for easier management. For example, if there a
 Train, evaluate and save the Keras CNN image classification model. The model can also be used to predict new pictures.
 
 ## Results
-The testing accuracy (predicting unseen images) is 0.855.
+The testing accuracy (predicting unseen images) is 0.865.
 <br>![Report](my_images/report.png)<br>
 
 Here are the predictions done on new images.
 <br>![Predictions](my_images/predictions.png)<br>
-We can see only the last picture, which should be a donkey, is wrongly classified.
+We can see only the fifth picture, which should be a horse, is wrongly classified.
 
 ## Reflection and Next Steps
 While the testing accuracy is quite satisfying, I noticed that the learning curve in terms of validation accuracy and validation loss during the training process was not that stable or smooth. That means the model performed extremely well on training set but not that well on pictures they never saw.  
