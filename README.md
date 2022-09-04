@@ -13,6 +13,11 @@ This is a horse-donkey image classifier using Keras CNN. The test accuracy is cu
 * Image preproccessing by dropping duplicates and visual filtering
 * Using Google Colab (Jupyter) notebooks
 
+## Motivation
+Horses and donkeys look quite similar, yet for most of the time I can somehow distinguish them even I cannot clearly explain why. But, can a trained Keras CNN become a better classifier than me?
+
+Apart from curiosity, lack of donkey image datasets on the internet is also one of the reasons I want to do this project, because that means I can even apply more tricks like web scraping and data augmentation.
+
 ## Data
 The dataset consists of the following:
 * Train (to train the model)
